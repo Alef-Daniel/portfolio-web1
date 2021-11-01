@@ -1,0 +1,240 @@
+* {
+  box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+body{
+	background-size: cover;
+	background-color: lightgray;
+	background-image: url(../img/wallpaper.jpg);
+	background-repeat: no-repeat;
+	
+	
+}
+
+.header{
+	position: fixed;
+	background-color: white;
+	width: 100%;	
+	margin-top:-8px;
+	margin-left: -8px;
+	opacity: 0.7;
+	z-index: 9;
+
+}
+
+.header ul{
+	
+	padding-left: 15%;
+	font-family: 'Fruktur', cursive;
+}
+
+
+.list-Header li{
+	
+	padding-right:30px;
+}
+
+
+
+
+.list-Header ul, li{
+
+	display: inline-block;
+	
+}
+
+.list-contact-header li{
+
+		display: inline-block;
+		padding-left: 50px;
+		
+}
+
+
+.list-contact-header ul, li{
+		
+		display: inline-block;
+		
+}
+
+.list-contact-header {
+		
+		margin-left: 40%;
+		position: absolute;
+		top:23px;
+}
+
+.photo img{
+	
+	animation: flutua 1.5s infinite;
+	animation-direction: alternate;
+    	animation-timing-function: ease-in-out;
+	position: absolute;		;
+	margin-left: 13%;
+	margin-top:150px; 
+	width: 17%;
+	height: 300px;
+	box-shadow:  12px 12px 29px #555;
+	
+
+
+	
+}
+
+.information .name{
+	position: absolute;
+	margin-left: 50%;
+	margin-top:160px; 
+	font-family: 'Zen Antique', serif;	
+	text-align: center;
+	
+}
+
+.information .info{
+
+	position: absolute;
+	margin-left: 50%;
+	margin-top:240px; 
+	font-family: 'Zen Antique', serif;	
+	text-align: center;
+	
+}
+
+.information .locale{
+
+	position: absolute;
+	margin-left: 50%;
+	margin-top:320px; 
+	font-family: 'Zen Antique', serif;	
+	text-align: center;
+	
+}
+
+.goal .title1{
+	
+	font-family: 'Zen Antique', serif;
+	text-align: center;
+	position: relative;
+	float: center;
+	top: 500px;
+	
+}
+
+.goal .hr1{
+	top:710px;
+	border-style: Double; 			
+	border: 5px 2px ;
+	margin-top: 520px;
+}
+
+.goal h3{
+	
+	
+	text-align: center;
+	
+}
+
+
+.goal .hr2{
+	top: 750px;
+	border-style: Double; 			
+	border: 5px 2px ;
+	margin-top: 100px;
+}
+
+
+.goal .hr3{
+	top: 500px;
+	border-style: Double; 			
+	border: 5px 2px ;
+	margin-top: 10px;
+}
+
+.goal .title2{
+	
+	font-family: 'Zen Antique', serif;
+	text-align: center;
+	position: relative;
+	float: center;
+	top: 100px;
+	
+}
+
+.goal .title3{
+	
+	font-family: 'Zen Antique', serif;
+	text-align: center;
+	margin-top: 120px;
+	
+}
+
+
+.ul1 li{
+	text-align: center;
+	display: block;
+	
+	
+}
+
+.ul2 li{
+	text-align: center;
+	display: block;
+	
+	
+}
+.ul3 li{
+	text-align: center;
+	display: block;
+	
+	
+}
+
+
+.information-about .th1{
+		font-family: 'Zen Antique', serif;
+		text-align: center;
+		position: absolute;
+		bottom: 500px;
+		left: 45%;
+		
+}
+
+.information-about .th2{
+		font-family: 'Zen Antique', serif;
+		text-align: center;
+		position: absolute;
+		bottom: 340px;
+		left: 45%;
+}
+
+.information-about .p1{
+		display: inline-block;
+		text-align: center;
+		position: absolute;
+		bottom: 450px;
+}
+
+.information-about .p2{
+		display: inline-block;
+		text-align: center;
+		position: absolute;
+		bottom: 300px;
+		left: 30%;
+}
+
+
+@keyframes flutua {
+    from {
+        top: -7px;
+    }
+    to {
+        top: 7px;
+    }
+}
+
+
